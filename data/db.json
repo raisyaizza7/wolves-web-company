@@ -1,0 +1,244 @@
+{
+  "Roles": [
+    {
+      "id": "role-admin",
+      "name": "admin",
+      "description": "Administrator Utama dengan akses penuh dashboard",
+      "permissions": "all",
+      "is_system": true,
+      "created_at": "2026-11-09T03:05:39.994Z"
+    },
+    {
+      "id": "role-user",
+      "name": "user",
+      "description": "Anggota / Pengguna umum website",
+      "permissions": "read:profile,create:order",
+      "is_system": true,
+      "created_at": "2026-11-09T03:05:39.994Z"
+    }
+  ],
+  "Users": [
+    {
+      "id": "user-admin-default",
+      "name": "Super Admin Wolves",
+      "email": "admin@gmail.com",
+      "password_hash": "$2b$10$ery0.OO.RTrGrisoZdraA.qyoWfbsILpLGGSEvbuI4I1EmKtI1fdS",
+      "role_id": "admin",
+      "status": "active",
+      "created_at": "2026-11-09T03:05:39.994Z",
+      "updated_at": "2026-11-09T03:05:39.994Z"
+    }
+  ],
+  "News": [
+    {
+      "id": "news-1",
+      "title": "Wolves U-17 Raih Gelar Juara Perbasi Cup Bogor 2025",
+      "slug": "wolves-u17-raih-gelar-juara-perbasi-cup-bogor-2025",
+      "excerpt": "Tampil dominan dengan pertahanan kokoh sejak kuarter pertama, skuad muda Wolves mengunci kemenangan final dramatis 78-71 di GOR Laga Tangkas.",
+      "content": "Skuad muda Wolves Basketball Club Kabupaten Bogor kelompok usia 17 tahun berhasil menorehkan prestasi gemilang dengan keluar sebagai kampiun Kejuaraan Perbasi Cup Bogor 2025. Pertandingan final yang digelar di GOR Laga Tangkas Pakansari berlangsung sengit dengan sorak sorai ribuan suporter.",
+      "thumbnail_path": "/images/news-championship.jpg",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "created_at": "2025-05-18T10:00:00.000Z",
+      "updated_at": "2025-05-18T10:00:00.000Z"
+    },
+    {
+      "id": "news-2",
+      "title": "Open Recruitment: Seleksi Beasiswa Talenta Muda Wolves Academy",
+      "slug": "open-recruitment-seleksi-beasiswa-talenta-muda-wolves-academy",
+      "excerpt": "Peluang beasiswa penuh pembinaan basket bagi atlet potensial kelahiran 2008-2012 di wilayah Kabupaten Bogor dan sekitarnya.",
+      "content": "Wolves Basketball Academy membuka seleksi beasiswa prestasi angkatan 2025. Program ini ditujukan bagi bibit-bibit unggul basket di Kabupaten Bogor untuk mendapatkan pembinaan berstandar FIBA, nutrisi atlet, serta perlengkapan latihan resmi secara gratis.",
+      "thumbnail_path": "/images/news-recruitment.jpg",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "created_at": "2025-05-12T10:00:00.000Z",
+      "updated_at": "2025-05-12T10:00:00.000Z"
+    },
+    {
+      "id": "news-3",
+      "title": "Pesta Sportainment Wolves di Pakansari Hadirkan Dunk Show Spektakuler",
+      "slug": "pesta-sportainment-wolves-di-pakansari-hadirkan-dunk-show-spektakuler",
+      "excerpt": "Ribuan penonton memadati arena menyaksikan duel bintang 3x3, kompetisi three-point shoot-out komunitas, serta pertunjukan slam dunk eksibisi.",
+      "content": "Gelaran Wolves Weekend Sportainment di GOR Pakansari sukses memukau pecinta basket Jabodetabek. Acara ini menggabungkan kompetisi basket 3x3, kontes tembakan 3 angka, panggung musik, dan aksi slam dunk contest dari para atlet profesional.",
+      "thumbnail_path": "/images/news-dunk.jpg",
+      "status": "published",
+      "author_id": "user-admin-default",
+      "created_at": "2025-05-05T10:00:00.000Z",
+      "updated_at": "2025-05-05T10:00:00.000Z"
+    }
+  ],
+  "Athletes": [
+    {
+      "id": "ath-1",
+      "user_id": "user-admin-default",
+      "name": "Rian Pratama",
+      "position": "Point Guard",
+      "jersey_number": "6",
+      "age": 17,
+      "height_cm": 182,
+      "weight_kg": 74,
+      "photo_url": "/images/athletes/player-6.jpg",
+      "status": "approved",
+      "created_at": "2026-11-10T02:41:12.335Z",
+      "updated_at": "2026-11-10T02:41:12.341Z"
+    },
+    {
+      "id": "ath-2",
+      "user_id": "user-admin-default",
+      "name": "Fajar Ramadhan",
+      "position": "Shooting Guard",
+      "jersey_number": "8",
+      "age": 18,
+      "height_cm": 188,
+      "weight_kg": 78,
+      "photo_url": "/images/athletes/player-8.jpg",
+      "status": "approved",
+      "created_at": "2026-11-10T02:41:12.341Z",
+      "updated_at": "2026-11-10T02:41:12.341Z"
+    },
+    {
+      "id": "ath-3",
+      "user_id": "user-admin-default",
+      "name": "Kevin Wijaya",
+      "position": "Small Forward",
+      "jersey_number": "12",
+      "age": 17,
+      "height_cm": 192,
+      "weight_kg": 83,
+      "photo_url": "/images/athletes/player-12.jpg",
+      "status": "approved",
+      "created_at": "2026-11-10T02:41:12.341Z",
+      "updated_at": "2026-11-10T02:41:12.341Z"
+    },
+    {
+      "id": "ath-4",
+      "user_id": "user-admin-default",
+      "name": "Bima Sakti",
+      "position": "Power Forward",
+      "jersey_number": "17",
+      "age": 18,
+      "height_cm": 195,
+      "weight_kg": 89,
+      "photo_url": "/images/athletes/player-17.jpg",
+      "status": "approved",
+      "created_at": "2026-11-10T02:41:12.341Z",
+      "updated_at": "2026-11-10T02:41:12.341Z"
+    },
+    {
+      "id": "ath-5",
+      "user_id": "user-admin-default",
+      "name": "Dimas Pratama",
+      "position": "Center",
+      "jersey_number": "11",
+      "age": 19,
+      "height_cm": 201,
+      "weight_kg": 96,
+      "photo_url": "/images/athletes/player-11.jpg",
+      "status": "approved",
+      "created_at": "2026-11-10T02:41:12.341Z",
+      "updated_at": "2026-11-10T02:41:12.341Z"
+    },
+    {
+      "id": "ath-6",
+      "user_id": "user-admin-default",
+      "name": "Arya Kusuma",
+      "position": "Point Guard",
+      "jersey_number": "5",
+      "age": 16,
+      "height_cm": 178,
+      "weight_kg": 70,
+      "photo_url": "/images/athletes/player-5.jpg",
+      "status": "approved",
+      "created_at": "2026-11-10T02:41:12.341Z",
+      "updated_at": "2026-11-10T02:41:12.341Z"
+    },
+    {
+      "id": "ath-7",
+      "user_id": "user-admin-default",
+      "name": "Danu Tirta (C)",
+      "position": "Power Forward",
+      "jersey_number": "00",
+      "age": 18,
+      "height_cm": 193,
+      "weight_kg": 92,
+      "photo_url": "/images/athletes/player-captain.jpg",
+      "status": "approved",
+      "created_at": "2026-11-10T02:41:12.341Z",
+      "updated_at": "2026-11-10T02:41:12.341Z"
+    },
+    {
+      "id": "ath-8",
+      "user_id": "user-admin-default",
+      "name": "Alden Putra",
+      "position": "Shooting Guard",
+      "jersey_number": "9",
+      "age": 17,
+      "height_cm": 185,
+      "weight_kg": 76,
+      "photo_url": "/images/athletes/player-9.jpg",
+      "status": "approved",
+      "created_at": "2026-11-10T02:41:12.341Z",
+      "updated_at": "2026-11-10T02:41:12.341Z"
+    },
+    {
+      "id": "ath-9",
+      "user_id": "user-admin-default",
+      "name": "Rendy Firmansyah",
+      "position": "Small Forward",
+      "jersey_number": "10",
+      "age": 18,
+      "height_cm": 190,
+      "weight_kg": 82,
+      "photo_url": "/images/athletes/player-10.jpg",
+      "status": "approved",
+      "created_at": "2026-11-10T02:41:12.341Z",
+      "updated_at": "2026-11-10T02:41:12.341Z"
+    },
+    {
+      "id": "ath-10",
+      "user_id": "user-admin-default",
+      "name": "Bagas Wicaksono",
+      "position": "Center",
+      "jersey_number": "15",
+      "age": 19,
+      "height_cm": 198,
+      "weight_kg": 94,
+      "photo_url": "/images/athletes/player-15.jpg",
+      "status": "approved",
+      "created_at": "2026-11-10T02:41:12.341Z",
+      "updated_at": "2026-11-10T02:41:12.341Z"
+    },
+    {
+      "user_id": "b728c79e-a754-4cf7-80cb-72b272c7dc9d",
+      "name": "Raisya Izza Saputra",
+      "position": "Point Guard",
+      "jersey_number": "3",
+      "age": 16,
+      "height_cm": 164,
+      "weight_kg": 57,
+      "photo_url": "/uploads/aa65623b-962c-48a9-9768-410616655f52.jpg",
+      "status": "approved",
+      "id": "7fd384c9-df64-48f3-b97c-5f576b4e6462",
+      "created_at": "2026-11-11T04:08:20.042Z",
+      "updated_at": "2026-11-11T04:09:26.867Z"
+    }
+  ],
+  "Orders": [
+    {
+      "id": "order-demo-1",
+      "ticket_number": "WLV-2025-0001",
+      "user_id": "user-admin-default",
+      "service_type": "sewa_lapangan",
+      "customer_name": "Rian Pratama",
+      "customer_phone": "081288997700",
+      "booking_date": "2025-06-14 16:00 - 18:00 WIB",
+      "quantity": 2,
+      "total_amount": 500000,
+      "notes": "Sewa lapangan indoor maple Pakansari untuk sparing antar klub.",
+      "status": "dikonfirmasi",
+      "admin_notes": "Pembayaran telah divalidasi oleh admin. Lapangan siap dipakai.",
+      "created_at": "2025-05-19T08:00:00.000Z",
+      "updated_at": "2025-05-19T09:30:00.000Z"
+    }
+  ]
+}

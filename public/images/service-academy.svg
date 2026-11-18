@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <radialGradient id="grad-AKAD" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#bb0102" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#201f1f" stop-opacity="1"/>
+    </radialGradient>
+    <pattern id="court-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#201f1f"/>
+  <rect width="100%" height="100%" fill="url(#court-grid)"/>
+  <circle cx="400" cy="220" r="260" fill="url(#grad-AKAD)"/>
+  <!-- Basketball court key line accents -->
+  <circle cx="400" cy="250" r="90" fill="none" stroke="#bb0102" stroke-width="2" stroke-opacity="0.4" stroke-dasharray="6 4"/>
+  <path d="M 200 450 L 350 250 L 450 250 L 600 450" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  
+  <text x="400" y="230" text-anchor="middle" fill="#ffffff" font-family="'Anybody', sans-serif" font-size="32" font-weight="900" letter-spacing="2">AKADEMI BASKET</text>
+  <text x="400" y="270" text-anchor="middle" fill="#bb0102" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" letter-spacing="3">USIA MUDA U-10 / U-14 / U-18</text>
+  <rect x="350" y="300" width="100" height="3" fill="#bb0102" rx="1.5"/>
+</svg>
