@@ -46,7 +46,8 @@ Posisi saat ini: **Step 4 - Deploy & Maintenance (Persiapan Rilis)**
   - [x] Halaman kustom 404 Not Found (`src/app/not-found.tsx`)
   - [x] Panduan teknis deployment Vercel langkah demi langkah di `documentation/SETUP.md`
   - [x] Log pemeliharaan & backlog di `documentation/MAINTENANCE.md`
-  - [ ] Deploy ke Vercel (oleh pengguna / GitHub)
+  - [x] Push seluruh kode ke repository GitHub (`https://github.com/raisyaizza7/wolves-web-company`)
+  - [ ] Deploy ke Vercel
   - [ ] Konfirmasi deployment selesai
 
 ## Catatan & Keputusan
